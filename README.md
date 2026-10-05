@@ -1,16 +1,35 @@
-# ⚔️ Leon Lionheart - O Santo do Sol
+# 📁 Portfólio Pessoal - Front-End
+Este é meu projeto final desenvolvido durante o curso Tecnologia Web - Engenharia da Computação (Front-End). Trata-se de um site de portfólio
+pessoal com informações sobre mim, meus projetos e formas de contato.
 
-> Ficha de Personagem de RPG desenvolvida para a disciplina de Desenvolvimento Web.
+-------
 
----
+## 📌 Sobre o Projeto
+Este site foi criado com foco em aplicar os conhecimentos de HTML, CSS, JavaScript, Flexbox, responsividade e publicação com GitHub Pages.
+O projeto foi dividido em duas fases: - Parte 1 (Semana 5): Estruturação HTML e protótipo no Figma
+- Parte 2 (Semana 11): Finalização com responsividade, interatividade e publicação online
 
-## 📖 Sobre o Personagem & Universo
+-------
 
-**Leon Lionheart** é um paladino sagrado e campeão da Ordem do Sol Dourado. Guiado pela luz solar, ele utiliza sua fé invocando chamas sagradas para proteger os fracos e expurgar as trevas do reino de Solaria.
+## 🧪 Funcionalidades
+Página Sobre Mim com imagem e descrição
+Seção de Projetos com links e descrições
+Formulário de Contato com validação básica
+Tema claro/escuro com JavaScript
+Layout responsivo (mobile e desktop)
+Animações e efeitos visuais com CSS
 
-Nesta ficha interativa, é possível visualizar a biografia do herói, suas estatísticas de atributos principais, suas habilidades e conquistas, além do seu inventário de equipamentos sagrados.
+-------
 
----
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5:** Estruturação semântica do conteúdo.
+- **CSS3:** Estilização, variáveis (`:root`), animações, Flexbox, CSS Grid e Media Queries.
+- **Font Awesome:** Ícones temáticos para atributos, habilidades e navegação.
+- **Git + GitHub
+- **GitHub Pages (para publicação)
+
+-------
 
 ## 🎨 Decisões de UI/UX (Design e Experiência do Usuário)
 
@@ -28,16 +47,30 @@ Neste projeto, foram aplicados conceitos fundamentais de interface e usabilidade
    - **Responsividade:** Uso de *Media Queries* no CSS para garantir que a interface se adapte perfeitamente a diferentes telas — 1 coluna em dispositivos móveis, 2 em tablets e 3 em computadores desktop.
    - **Feedback (Affordance):** Adição de efeitos de hover com transições suaves (`transition: 0.3s`) nos botões e cards, indicando ao usuário que esses elementos são interativos.
 
----
+-------
 
-## 🛠️ Tecnologias Utilizadas
+## 🔗 Acesso ao Projeto
+GitHub Pages:https://github.com/gui05dragon10-max/ficha-heroi-parte1.git
 
-- **HTML5:** Estruturação semântica do conteúdo.
-- **CSS3:** Estilização, variáveis (`:root`), animações, Flexbox, CSS Grid e Media Queries.
-- **Font Awesome:** Ícones temáticos para atributos, habilidades e navegação.
+-------
 
----
+## 📸 Capturas de Tela
+file:///run/user/1000/doc/988a5c60/computador.png
 
+-------
+
+## 📄 Licença
+Este projeto é de uso educacional, criado como parte da disciplina Tecnologia Web.
+
+-------
+
+## 🙋‍♀️ Desenvolvido por
+GUILHERME SOARES DE ALMEIDA RA:266132
+Turma: [2 semestre da turma da manha]
+Email: [gui05sagui2008@gmail.com]
+GitHub: https://github.com/gui05dragon10-max/ficha-heroi-parte1.git
+
+-------
 ## 📂 Estrutura do Projeto
 
 ```text
