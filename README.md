@@ -64,7 +64,7 @@ Este projeto é de uso educacional, criado como parte da disciplina Tecnologia W
 
 -------
 
-## 🙋‍♀️ Desenvolvido por
+## Desenvolvido por
 GUILHERME SOARES DE ALMEIDA RA:266132
 Turma: [2 semestre da turma da manha]
 Email: [gui05sagui2008@gmail.com]
