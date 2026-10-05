@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto RPG</title>
+    <link rel="stylesheet" href="CSS/Gold.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+      <h1 class="titulo qualquer" style="display: block; margin: 0 auto;" >Leon Lionheart-O SANTO DO SOL</h1>
+    </header>
+     <br>
+     <img src="imagens/Leon.JPG" 
+     style="display: block; margin: 0 auto;"
+     alt="O Santo" 
+     width="50%">
+    <nav>
+      <br>
+   <div class="botoes-container">
+   <a class="botao1" href="#Sobre">Sobre o Herói</a>
+   <a class="botao1" href="#Atributos">Atributos</a>
+   <a class="botao1" href="#Habilidades">Habilidades</a>
+   <a class="botao1" href="#Inventário">Inventário</a>
+   <a class="botao1" href="#Conquistas">Conquistas</a>
+   <a class="botao1" href="#Contato-Guilda">Contato com a Guilda</a> 
+   </div>
+
+   </nav>
+   <main>
+    <br><br><br>
+       <section id="Sobre">
+          <h2 class="resto" style="display: block; margin: 0 auto;" >Sobre o Herói</h2>
+       </section>
+       <br>
+          <h4 class="letra" style="display: block; margin: 0 auto;" >
+            <p><strong>Leon Lionheart</strong> é um paladino sagrado e campeão da Ordem do Sol Dourado. Nascido em uma pequena vila 
+                que foi tragicamente destruída por orcs, Leon foi mantido em cativeiro até ser resgatado e adotado por um nobre paladino, 
+                que o introduziu aos caminhos da honra e da fé.
+            </p>
+            <p>
+              Levado para a Igreja Sagrada do Sol, ele passou por intensos treinamentos e superou duras provações até ser abençoado 
+              diretamente com os poderes da deusa Solaria. Agora, vestindo os trajes e empunhando as armas do 
+              <strong>Santo do Sol</strong>, Leon dedica sua vida a lutar contra os monstros e ser o protetor supremo dos inocentes.
+            </p>
+          </h4>
+       <br><br><br>
+       <section id="Atributos">
+          <h2 class="resto" style="display: block; margin: 0 auto;" >Atributos</h2>
+          <div class="tabela-container">
+    <table class="tabela-atributos">
+        <thead>
+            <tr>
+                <th>Ícone</th>
+                <th>Atributo</th>
+                <th>Valor Base</th>
+                <th>Bônus de Equipamento</th>
+                <th>Nível Visual</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><i class="fas fa-fist-raised"></i></td>
+                <td class="nome-atributo">Força (FOR)</td>
+                <td>70</td>
+                <td class="modificador">+5</td>
+                <td>
+                    <div class="barra-fundo">
+                        <div class="barra-progresso" style="width: 75%;"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><i class="fas fa-running"></i></td>
+                <td class="nome-atributo">Agilidade (AGI)</td>
+                <td>45</td>
+                <td class="modificador">+3</td>
+                <td>
+                    <div class="barra-fundo">
+                        <div class="barra-progresso" style="width: 48%;"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><i class="fas fa-heart"></i></td>
+                <td class="nome-atributo">Vitalidade (VIT)</td>
+                <td>75</td>
+                <td class="modificador">+4</td>
+                <td>
+                    <div class="barra-fundo">
+                        <div class="barra-progresso" style="width: 79%;"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><i class="fas fa-shield-alt"></i></td>
+                <td class="nome-atributo">Defesa (DEF)</td>
+                <td>78</td>
+                <td class="modificador">+6</td>
+                <td>
+                    <div class="barra-fundo">
+                        <div class="barra-progresso" style="width: 84%;"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><i class="fas fa-sun"></i></td>
+                <td class="nome-atributo">Fé/Espirito (FTH)</td>
+                <td>85</td>
+                <td class="modificador">+7</td>
+                <td>
+                    <div class="barra-fundo">
+                        <div class="barra-progresso" style="width: 92%;"></div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+        </section>
+        <br>
+    <div class="card-atributos" style="display: block; margin: 0 auto;">
+    <h2>Estatísticas de Combate</h2>
+    <ul class="lista-atributos-simples">
+        <li><strong>HP (Pontos de Vida):</strong> 6.850</li>
+        <li><strong>MP (Pontos de Mana/Luz):</strong> 3.420</li>
+        <li><strong>Dano Físico Base:</strong> 420</li>
+        <li><strong>Dano Mágico Base (Luz):</strong> 615</li>
+        <li><strong>Redução de Dano Físico (Armadura):</strong> 65%</li>
+        <li><strong>Resistência a Dano Mágico (Sombrio/Corrupção):</strong> 80%</li>
+        <li><strong>Chance de Acerto Crítico:</strong> 15%</li>
+        <li><strong>Velocidade de Movimento:</strong> 3.5m/s</li>
+    </ul>
+    </div>
+        <br><br>
+        <section id="Habilidades">
+          <h2 class="resto" style="display: block; margin: 0 auto;" >Habilidades</h2>
+        </section>
+        <br><br>
+    <div class="grid-habilidades">
+        
+        <!-- Habilidade 1 -->
+        <div class="card-habilidade">
+            <img src="imagens/H-Luminoso.jpg" alt="Golpe Luminoso" class="icone-habilidade">
+            <p class="letra descricao-habilidade">
+                 Golpe Luminoso: Um ataque básico fortalecido com energia divina, causando dano físico e mágico de luz.
+            </p>
+        </div>
+
+        <!-- Habilidade 2 -->
+        <div class="card-habilidade">
+            <img src="imagens/H-Divino.jpg" alt="Proteção Divina" class="icone-habilidade">
+            <p class="descricao-habilidade letra">
+                Proteção Divina: Um bônus defensivo (buff) que aumenta a resistência do personagem contra feitiços e ataques sombrios.
+            </p>
+        </div>
+    </div>
+          <br>
+    <div class="grid-habilidades">
+        
+        <!-- Habilidade 3 -->
+        <div class="card-habilidade">
+            <img src="imagens/Escudo.jpg" alt="Escudo" class="icone-habilidade">
+            <p class="letra descricao-habilidade">
+                 Escudo da Fé: Invoca uma barreira dourada que absorve danos diretos por alguns segundos.
+            </p>
+        </div>
+
+        <!-- Habilidade 4 -->
+        <div class="card-habilidade">
+            <img src="imagens/H-Lamina.jpg" alt="lâmina" class="icone-habilidade">
+            <p class="descricao-habilidade letra">
+                Lâmina Purificadora: Um golpe devastador em área que varre os inimigos à frente 
+                com uma onda de luz.
+            </p>
+        </div>
+    </div>
+          <br>
+    <div class="grid-habilidades">
+        
+        <!-- Habilidade 5 -->
+        <div class="card-habilidade">
+            <img src="imagens/H-Despertar.jpg" alt="Despertar" class="icone-habilidade">
+            <p class="letra descricao-habilidade">
+                 Despertar do Santo: Uma habilidade de aprimoramento que amplifica 
+            temporariamente o dano e a velocidade de ataque do usuário.
+            </p>
+        </div>
+
+        <!-- Habilidade 6 -->
+        <div class="card-habilidade">
+            <img src="imagens/H-Mental.jpg" alt="Magia" class="icone-habilidade">
+            <p class="descricao-habilidade letra">
+                Claridade Mental: Uma habilidade focado em restaurar pontos de Mana 
+            para permitir o uso contínuo de magias.
+            </p>
+        </div>
+    </div>
+          <br>
+    <div class="grid-habilidades">
+        
+        <!-- Habilidade 7 -->
+        <div class="card-habilidade">
+            <img src="imagens/H-Curativo.jpg" alt="Cura" class="icone-habilidade">
+            <p class="letra descricao-habilidade">
+                 Toque Curativo: Magia de cura primária que restaura instantaneamente uma 
+            grande quantidade de Pontos de Vida (HP).
+            </p>
+        </div>
+
+        <!-- Habilidade 8 -->
+        <div class="card-habilidade">
+            <img src="imagens/H-Renovação.jpg" alt="Renovação" class="icone-habilidade">
+            <p class="descricao-habilidade letra">
+                Renovação: Uma bênção secundária que concede regeneração 
+            contínua de vida ao longo do tempo.
+            </p>
+        </div>
+    </div>
+        <br><br>
+        
+        <section id="Inventário">
+          <h2 class="resto" style="display: block; margin: 0 auto;" >Inventário</h2>
+        </section>
+        <br><br>
+
+        <div class="grid-habilidades">
+        <!-- Equipamento 1 -->
+        <div class="card-habilidade">
+            <img src="imagens/Espada.JPG" alt="Espada" class="icone-habilidade S-habilidades">
+            <p class="letra descricao-habilidade">
+                 Espada Sagrada(Lendário): Uma lâmina pesada de duas mãos forjada em um metal reluzente. O núcleo da arma canaliza energia pura, 
+            fazendo com que a lâmina brilhe intensamente com uma aura dourada e elétrica. A guarda-mão possui detalhes esculpidos em 
+            forma de asas angelicais, com uma gema de luz solar incrustada no centro.
+            </p>
+        </div>
+
+        <!-- Equipamento 2 -->
+        <div class="card-habilidade">
+            <img src="imagens/Peitoral.jpg" alt="Peitoral" class="icone-habilidade">
+            <p class="descricao-habilidade letra">
+                Armadura do Solstício(Lendário): Um conjunto completo de armadura pesada em um tom de branco imaculado. Toda a extensão das placas 
+            é contornada e decorada com filigranas em ouro maciço, formando runas, cruzes sagradas e símbolos solares.
+            </p>
+        </div>
+    </div>
+         <br>
+         
+         <div class="grid-habilidades">
+        <!-- Equipamento 3 -->
+        <div class="card-habilidade">
+            <img src="imagens/Ombreiras.jpg" alt="Ombreiras" class="icone-habilidade">
+            <p class="letra descricao-habilidade">
+                 Ombreiras do Solstício(Lendário): As ombreiras são largas, compostas por múltiplas camadas de metal sobrepostas para desviar 
+            golpes contundentes, com o mesmo acabamento branco e dourado.
+            </p>
+        </div>
+
+        <!-- Equipamento 4 -->
+        <div class="card-habilidade">
+            <img src="imagens/Manoplas.jpg" alt="Manoplas" class="icone-habilidade">
+            <p class="descricao-habilidade letra">
+                Manoplas do Solstício(Lendário): As manoplas são articuladas e reforçadas na ponta dos dedos, 
+            permitindo uma empunhadura firme na espada pesada.
+            </p>
+        </div>
+    </div>
+         <br>
+         
+         <div class="grid-habilidades">
+        <!-- Equipamento 5 -->
+        <div class="card-habilidade">
+            <img src="imagens/Tabardo.jpg" alt="Tabardo" class="icone-habilidade">
+            <p class="letra descricao-habilidade">
+                 Vestes Eclesiásticas do Solstício(Lendário): Por baixo da couraça e pendendo da cintura, ele usa um tabardo branco reforçado 
+          com couro escuro nas áreas de articulação. O tecido possui bordados geométricos e religiosos em fio de ouro nas bainhas.
+            </p>
+        </div>
+
+        <!-- Equipamento 6 -->
+        <div class="card-habilidade">
+            <img src="imagens/Capa.jpg" alt="Capa" class="icone-habilidade">
+            <p class="descricao-habilidade letra">
+                Capa do Solstício(Lendário): Uma longa e pesada capa branca flui de seus ombros, projetada não apenas para cerimônias, 
+            mas para resistir ao clima hostil e à sujeira do combate, ostentando arabescos dourados nas pontas.
+            </p>
+        </div>
+    </div>
+        <br><br>
+        
+        <section id="Conquistas">
+          <h2 class="resto" style="display: block; margin: 0 auto;" >Conquistas</h2>
+        </section>
+        <br><br>
+
+        <div class="grid-habilidades">
+        <!-- Conquista 1 -->
+        <div class="card-habilidade">
+            <img src="imagens/Templo.jpg" alt="Espada" class="icone-habilidade S2-habilidades">
+            <p class="letra descricao-habilidade">
+            -----------------------------------------A conquista do Templo do Solstício----------------------------------------------
+            </p>
+            <a href="Templo.html" class="botao1" >Saiba mais</a>
+        </div>
+
+        <!-- Conquista 2 -->
+        <div class="card-habilidade">
+            <img src="imagens/Ghash-Dur.jpg" alt="Peitoral" class="icone-habilidade S2-habilidades">
+            <p class="descricao-habilidade letra">
+                -----------------------------------------O cerco da fortaleza de Ghash-Dûr----------------------------------------------
+            </p>
+            <a href="Fortaleza.html" class="botao1" >Saiba mais</a>
+        </div>
+    </div>
+         <br>
+        <div class="grid-habilidades">
+        <!-- Conquista 3 -->
+        <div class="card-habilidade">
+            <img src="imagens/Ruinas.jpg" alt="Espada" class="icone-habilidade S2-habilidades">
+            <p class="letra descricao-habilidade">
+               ------------------------------------------------A Exploração De Sarnanor-------------------------------------------------
+            </p>
+            <a href="Ruinas.html" class="botao1" >Saiba mais</a>
+        </div>
+
+        <!-- Conquista 4 -->
+        <div class="card-habilidade">
+            <img src="imagens/Castelo.jpg" alt="Peitoral" class="icone-habilidade S2-habilidades">
+            <p class="descricao-habilidade letra">
+                ------------------------------------------------A Batalha de Minas-Gûl-----------------------------------------------------
+            </p>
+            <a href="Minas-Gûl.html" class="botao1" >Saiba mais</a>
+        </div>
+    </div>
+         <br>
+
+        <br><br>
+        <section id="Contato-Guilda">
+          <h2 class="resto" style="display: block; margin: 0 auto;" >Contato com a Guilda</h2>
+        </section>
+        <br>
+          <h4 class="letra" style="display: block; margin: 0 auto;" >Caso queira falar com o criador:
+           <p>telefone: 55 (13)988706870</p>
+           <p>Email: gui05sagui2008@gmail.com</p>
+          </h4>
+        <br><br>
+        <footer>
+           <h4 class="qualquer2" >&copy; Todos os direitos reservados</h4>
+        </footer>
+    </main>
+    
+</body>
+</html>

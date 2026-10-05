@@ -1,0 +1,292 @@
+:root {
+    --cor-principal: #ff0000;
+    --cor-destaque: #ffa500;
+    --bg-escuro: #1e1e1e;
+    --texto-escuro: #1e1e1e;
+}
+
+.titulo{
+    width: 40%;
+    border: 10px solid rgb(255, 165, 0);
+    border-radius: 15px;
+    background: black;
+    padding: 20px 10px 50px 20px;
+}
+.qualquer{
+    color: rgb(255, 0, 0);
+    font-size: 60px;
+    width: 40%;
+    height: 100px;
+}
+.qualquer2{
+    color: gold;
+}
+.heroi{
+    display: flex;
+}
+.resto{
+    border: 4px solid orange;
+    background: black;
+    color: red;
+    text-decoration: none;
+    padding: 10px;
+    max-width: 900px;
+    margin-left: 0;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+.letra{
+    border: 4px solid red;
+    background: orange;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    max-width: 900px;
+    margin-left: 0;
+    margin-right: auto;
+    width: 100%;
+}
+.letra2{
+    border: 4px solid whitesmoke;
+    background: black;
+    color: gold;
+    text-decoration: none;
+    padding: 10px;
+    max-width: 900px;
+    margin-left: 0;
+    margin-right: auto;
+    width: 100%;
+}
+#das{
+    text-align: center;
+    background-image: url(/imagem/chama.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(../imagens/Fundo4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+a.botao1{
+    border: 4px solid red;
+    background: black;
+    color: orange;
+    text-decoration: none;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+a.botao1:hover{
+    border: 4px solid rgb(255, 215, 0);
+    border-radius: 15px;
+    background: rgb(0, 0, 0);
+    color: goldenrod;
+}
+.botoes-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;              
+}
+/*imagens*/
+.Imagem-centro {
+    display: block;     
+    margin-left: auto;   
+    margin-right: auto;   
+    margin-bottom: 15px;  
+}
+.H-imagem {
+    position: relative;
+    left: 23%;
+    transform: translateX(-50%);
+}
+
+/* Container que coloca os cards lado a lado */
+.grid-habilidades {
+    display: flex;
+    gap: 20px;             /* Espaço entre um card e outro */
+    width: 100%;
+}
+
+/* Cada card individual de habilidade */
+.card-habilidade {
+    flex: 1;               /* Faz os dois cards dividirem o espaço igualmente */
+    min-width: 250px;      /* Largura mínima antes de quebrar a linha em telas pequenas */
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* Centraliza a imagem no meio de cada card */
+    justify-content: space-between;
+}
+
+/* Garante que o texto ocupe toda a largura do seu card */
+.descricao-habilidade {
+    width: 100%;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+}
+/* Selecione a tag ou a classe da imagem das habilidades */
+.S-habilidades {
+    width: 30%;          /* Define uma largura fixa igual para todas */
+    height: 100%;         /* Define uma altura fixa para não esticar */
+    object-fit: cover;     /* Garante que a imagem preencha o quadrado sem distorcer */
+    display: block;
+    margin: 0 auto 10px;   /* Centraliza a imagem no card e dá espaçamento para o texto */
+}
+.S2-habilidades {
+    width: 70%;          /* Define uma largura fixa igual para todas */
+    height: 100%;         /* Define uma altura fixa para não esticar */
+    object-fit: cover;     /* Garante que a imagem preencha o quadrado sem distorcer */
+    display: block;
+    margin: 0 auto 10px;   /* Centraliza a imagem no card e dá espaçamento para o texto */
+}
+
+
+
+
+/* Tabela */
+.tabela-container {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 15px;
+}
+
+/* Configuração Principal da Tabela */
+.tabela-atributos {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaço entre as bordas das células */
+    background-color: var(--bg-secundario, #1e1e1e);
+    color: var(--texto-principal, #e0e0e0);
+    border: 1px solid var(--cor-destaque, #d4af37);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Cabeçalho da Tabela */
+.tabela-atributos thead {
+    background-color: #2a2a2a;
+    border-bottom: 2px solid var(--cor-destaque, #d4af37);
+}
+
+.tabela-atributos th {
+    font-family: var(--fonte-titulo, serif);
+    color: var(--cor-destaque, #d4af37);
+    padding: 12px 15px;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Células da Tabela (Corpo) */
+.tabela-atributos td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+    font-size: 0.95rem;
+}
+
+/* Destaque no nome do atributo */
+.nome-atributo {
+    font-weight: bold;
+    text-align: left !important;
+}
+
+/* Destaque para os Modificadores */
+.modificador {
+    color: #4caf50; /* Verde para destacar bônus positivos */
+    font-weight: bold;
+}
+
+/* Efeito Zebra (Linhas alternadas para melhorar UI/UX) */
+.tabela-atributos tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+/* Efeito Hover na linha da tabela */
+.tabela-atributos tbody tr:hover {
+    background-color: rgba(212, 175, 55, 0.1); /* Brilho dourado ao passar o mouse */
+    transition: background-color 0.2s ease;
+}
+
+/* Estilo das Barras de Progresso dentro da tabela */
+.barra-fundo {
+    background-color: #333;
+    width: 100%;
+    min-width: 100px;
+    height: 14px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.barra-progresso {
+    background-color: var(--cor-destaque, #d4af37);
+    height: 100%;
+    border-radius: 7px;
+}
+
+
+/* Atributos combate*/
+
+/* Container principal escuro */
+.card-atributos {
+    background-color: #1e1e1e; /* Tom cinza-azulado da foto */
+    color: #d4af37;
+    padding: 24px;
+    border-radius: 6px;
+    width: 100%;
+    max-width: 400px; /* Impede que fique muito largo */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Título com a linha divisória sutil */
+.card-atributos h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d4af37; /* Linha fina translúcida */
+}
+
+/* Remove as bolinhas da lista */
+.lista-atributos-simples {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Espaçamento entre cada atributo */
+.lista-atributos-simples li {
+    font-size: 1.05rem;
+    margin-bottom: 14px;
+    color: #e0e0e0;
+}
+
+.lista-atributos-simples li:last-child {
+    margin-bottom: 0; /* Remove a margem do último item */
+}
+
+/* Mobile (Padrão: 1 coluna) */
+.grid-habilidades {
+    display: flex;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+/* Tablet (2 colunas) */
+@media (min-width: 600px) {
+    .grid-habilidades {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Desktop (3 colunas) */
+@media (min-width: 1024px) {
+    .grid-habilidades {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
