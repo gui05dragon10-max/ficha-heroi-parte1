@@ -1,35 +1,48 @@
 # 📁 Portfólio Pessoal - Front-End
-Este é meu projeto final desenvolvido durante o curso Tecnologia Web - Engenharia da Computação (Front-End). Trata-se de um site de portfólio
-pessoal com informações sobre mim, meus projetos e formas de contato.
 
--------
+Este é meu projeto desenvolvido durante a disciplina **Tecnologia Web - Engenharia da Computação**. Trata-se de um site de portfólio interativo com temática RPG (baseado no herói criado *Leon Lionheart - O Santo do Sol*), apresentando informações sobre o personagem, suas habilidades, conquistas, inventário e formulário de contato.
+
+---
 
 ## 📌 Sobre o Projeto
-Este site foi criado com foco em aplicar os conhecimentos de HTML, CSS, JavaScript, Flexbox, responsividade e publicação com GitHub Pages.
-O projeto foi dividido em duas fases: - Parte 1 (Semana 5): Estruturação HTML e protótipo no Figma
-- Parte 2 (Semana 11): Finalização com responsividade, interatividade e publicação online
 
--------
+Este site foi criado com o objetivo de aplicar na prática os conhecimentos de **HTML5**, **CSS3** (utilizando **CSS Grid** e **Flexbox**), **responsividade** e **publicação com GitHub Pages**.
+
+O projeto foi dividido em duas fases:
+- **Parte 1:** Estruturação HTML, estilização inicial e prototipagem no Figma.
+- **Parte 2:** Ajustes de layout, responsividade para dispositivos móveis, organização do CSS e publicação online.
+
+---
 
 ## 🧪 Funcionalidades
-Página Sobre Mim com imagem e descrição
-Seção de Projetos com links e descrições
-Formulário de Contato com validação básica
-Tema claro/escuro com JavaScript
-Layout responsivo (mobile e desktop)
-Animações e efeitos visuais com CSS
 
--------
+- **Seção Sobre o Herói:** Apresentação completa com imagem e lore do personagem.
+- **Atributos & Habilidades:** Exibição estruturada das cartas de habilidades (*Golpe Luminoso*, *Proteção Divina*, *Escudo da Fé*, *Lâmina Purificadora*) utilizando layouts em Grid e Flexbox.
+- **Páginas de Conquistas:** Links para páginas secundárias de desafios e locais (*Templo*, *Ruínas*, *Fortaleza*, *Minas-Gûl*).
+- **Contato com a Guilda:** Formulário de envio de mensagens e contato.
+- **Layout Responsivo:** Adaptação para telas desktop, tablet e mobile.
 
-## 🛠️ Tecnologias Utilizadas
+---
+
+## 💻 Como Visualizar o Projeto
+
+1. Baixe ou clone este repositório para o seu computador.
+2. Navegue até a pasta do projeto.
+3. Abra o arquivo `Index.html` diretamente no seu navegador de preferência.
+
+*(Opcional: Você também pode acessar a versão publicada diretamente pelo link na seção de Acesso ao Projeto abaixo).*
+
+---
+
+## 🧰 Tecnologias Utilizadas
 
 - **HTML5:** Estruturação semântica do conteúdo.
 - **CSS3:** Estilização, variáveis (`:root`), animações, Flexbox, CSS Grid e Media Queries.
 - **Font Awesome:** Ícones temáticos para atributos, habilidades e navegação.
-- **Git + GitHub
-- **GitHub Pages (para publicação)
+- **Git + GitHub** (Controle de versão e hospedagem)
+- **GitHub Pages** (Publicação da aplicação online)
 
--------
+---
 
 ## 🎨 Decisões de UI/UX (Design e Experiência do Usuário)
 
@@ -47,30 +60,33 @@ Neste projeto, foram aplicados conceitos fundamentais de interface e usabilidade
    - **Responsividade:** Uso de *Media Queries* no CSS para garantir que a interface se adapte perfeitamente a diferentes telas — 1 coluna em dispositivos móveis, 2 em tablets e 3 em computadores desktop.
    - **Feedback (Affordance):** Adição de efeitos de hover com transições suaves (`transition: 0.3s`) nos botões e cards, indicando ao usuário que esses elementos são interativos.
 
--------
+---
 
 ## 🔗 Acesso ao Projeto
-GitHub Pages:https://github.com/gui05dragon10-max/ficha-heroi-parte1.git
 
--------
+- **GitHub Pages:** [Clique aqui para acessar o site]https://github.com/gui05dragon10-max/ficha-heroi-parte1.git
+
+---
 
 ## 📸 Capturas de Tela
-file:///run/user/1000/doc/988a5c60/computador.png
 
--------
+> ![Versão Desktop](./imagens/computador.png)
+
+---
 
 ## 📄 Licença
-Este projeto é de uso educacional, criado como parte da disciplina Tecnologia Web.
 
--------
+Este projeto é de uso educacional, criado como parte da disciplina **Tecnologia Web**.
 
-## Desenvolvido por
-GUILHERME SOARES DE ALMEIDA RA:266132
-Turma: [2 semestre da turma da manha]
-Email: [gui05sagui2008@gmail.com]
-GitHub: https://github.com/gui05dragon10-max/ficha-heroi-parte1.git
+---
 
--------
+## 👩‍💻 Desenvolvido por
+
+- Guilherme Soares de Almeida - RA: `266132`
+- **Turma:** Engenharia da Computação / [2 Semestre de manhã]
+- **GitHub:** https://github.com/gui05dragon10-max
+
+---
 ## 📂 Estrutura do Projeto
 
 ```text
